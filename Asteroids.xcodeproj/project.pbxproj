@@ -10,6 +10,7 @@
 		DE86146D26613ACA00EF916F /* time.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE86146B26613ACA00EF916F /* time.cpp */; };
 		DE8614712661457F00EF916F /* game-manager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE86146F2661457F00EF916F /* game-manager.cpp */; };
 		DE8614772661A34100EF916F /* gravity-circle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE8614752661A34100EF916F /* gravity-circle.cpp */; };
+		DE86148326621CAA00EF916F /* Resource.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE86148126621CAA00EF916F /* Resource.cpp */; };
 		DEDE1EE526612BE50052A57F /* ResourcePath.mm in Sources */ = {isa = PBXBuildFile; fileRef = DEDE1EE426612BE50052A57F /* ResourcePath.mm */; };
 		DEDE1EE826612BE50052A57F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEDE1EE726612BE50052A57F /* main.cpp */; };
 		DEDE1EFC26612C310052A57F /* sansation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DEDE1EF826612C310052A57F /* sansation.ttf */; };
@@ -26,6 +27,8 @@
 		DE8614702661457F00EF916F /* game-manager.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "game-manager.hpp"; sourceTree = "<group>"; };
 		DE8614752661A34100EF916F /* gravity-circle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "gravity-circle.cpp"; sourceTree = "<group>"; };
 		DE8614762661A34100EF916F /* gravity-circle.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "gravity-circle.hpp"; sourceTree = "<group>"; };
+		DE86148126621CAA00EF916F /* Resource.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Resource.cpp; sourceTree = "<group>"; };
+		DE86148226621CAA00EF916F /* Resource.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Resource.hpp; sourceTree = "<group>"; };
 		DEDE1EDF26612BE50052A57F /* Asteroids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Asteroids.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEDE1EE426612BE50052A57F /* ResourcePath.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
 		DEDE1EE626612BE50052A57F /* ResourcePath.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ResourcePath.hpp; sourceTree = "<group>"; };
@@ -74,6 +77,17 @@
 			path = Components;
 			sourceTree = "<group>";
 		};
+		DE86148026621C9800EF916F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DEDE1EE426612BE50052A57F /* ResourcePath.mm */,
+				DEDE1EE626612BE50052A57F /* ResourcePath.hpp */,
+				DE86148226621CAA00EF916F /* Resource.hpp */,
+				DE86148126621CAA00EF916F /* Resource.cpp */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		DEDE1ED526612BE50052A57F = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +108,6 @@
 			isa = PBXGroup;
 			children = (
 				DE8614692661329500EF916F /* Asteroids.entitlements */,
-				DEDE1EE426612BE50052A57F /* ResourcePath.mm */,
-				DEDE1EE626612BE50052A57F /* ResourcePath.hpp */,
 				DEDE1EE726612BE50052A57F /* main.cpp */,
 				DE8614742661A33400EF916F /* Components */,
 				DE86146E2661456000EF916F /* Game Manager */,
@@ -108,6 +120,7 @@
 		DEDE1EF726612C310052A57F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				DE86148026621C9800EF916F /* Helpers */,
 				DEDE1EF826612C310052A57F /* sansation.ttf */,
 				DEDE1EF926612C310052A57F /* icon.png */,
 				DEDE1EFA26612C310052A57F /* nice_music.ogg */,
@@ -213,6 +226,7 @@
 				DEDE1EE526612BE50052A57F /* ResourcePath.mm in Sources */,
 				DE86146D26613ACA00EF916F /* time.cpp in Sources */,
 				DE8614712661457F00EF916F /* game-manager.cpp in Sources */,
+				DE86148326621CAA00EF916F /* Resource.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
