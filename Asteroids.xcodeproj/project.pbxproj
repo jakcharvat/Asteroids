@@ -7,24 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE86146D26613ACA00EF916F /* time.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE86146B26613ACA00EF916F /* time.cpp */; };
+		DE8614712661457F00EF916F /* game-manager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE86146F2661457F00EF916F /* game-manager.cpp */; };
+		DE8614772661A34100EF916F /* gravity-circle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE8614752661A34100EF916F /* gravity-circle.cpp */; };
 		DEDE1EE526612BE50052A57F /* ResourcePath.mm in Sources */ = {isa = PBXBuildFile; fileRef = DEDE1EE426612BE50052A57F /* ResourcePath.mm */; };
 		DEDE1EE826612BE50052A57F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEDE1EE726612BE50052A57F /* main.cpp */; };
-		DEDE1EEB26612BE50052A57F /* cute_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DEDE1EEA26612BE50052A57F /* cute_image.jpg */; };
-		DEDE1EED26612BE50052A57F /* nice_music.ogg in Resources */ = {isa = PBXBuildFile; fileRef = DEDE1EEC26612BE50052A57F /* nice_music.ogg */; };
-		DEDE1EEF26612BE50052A57F /* sansation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DEDE1EEE26612BE50052A57F /* sansation.ttf */; };
-		DEDE1EF126612BE50052A57F /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DEDE1EF026612BE50052A57F /* icon.png */; };
+		DEDE1EFC26612C310052A57F /* sansation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DEDE1EF826612C310052A57F /* sansation.ttf */; };
+		DEDE1EFD26612C310052A57F /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DEDE1EF926612C310052A57F /* icon.png */; };
+		DEDE1EFE26612C310052A57F /* nice_music.ogg in Resources */ = {isa = PBXBuildFile; fileRef = DEDE1EFA26612C310052A57F /* nice_music.ogg */; };
+		DEDE1EFF26612C310052A57F /* cute_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DEDE1EFB26612C310052A57F /* cute_image.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DE8614692661329500EF916F /* Asteroids.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Asteroids.entitlements; sourceTree = "<group>"; };
+		DE86146B26613ACA00EF916F /* time.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = time.cpp; sourceTree = "<group>"; };
+		DE86146C26613ACA00EF916F /* time.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = time.hpp; sourceTree = "<group>"; };
+		DE86146F2661457F00EF916F /* game-manager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "game-manager.cpp"; sourceTree = "<group>"; };
+		DE8614702661457F00EF916F /* game-manager.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "game-manager.hpp"; sourceTree = "<group>"; };
+		DE8614752661A34100EF916F /* gravity-circle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "gravity-circle.cpp"; sourceTree = "<group>"; };
+		DE8614762661A34100EF916F /* gravity-circle.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "gravity-circle.hpp"; sourceTree = "<group>"; };
 		DEDE1EDF26612BE50052A57F /* Asteroids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Asteroids.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DEDE1EE326612BE50052A57F /* Asteroids-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Asteroids-Info.plist"; path = "../Asteroids-Info.plist"; sourceTree = "<group>"; };
 		DEDE1EE426612BE50052A57F /* ResourcePath.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
 		DEDE1EE626612BE50052A57F /* ResourcePath.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ResourcePath.hpp; sourceTree = "<group>"; };
 		DEDE1EE726612BE50052A57F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		DEDE1EEA26612BE50052A57F /* cute_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cute_image.jpg; path = ../cute_image.jpg; sourceTree = "<group>"; };
-		DEDE1EEC26612BE50052A57F /* nice_music.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; name = nice_music.ogg; path = ../nice_music.ogg; sourceTree = "<group>"; };
-		DEDE1EEE26612BE50052A57F /* sansation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = sansation.ttf; path = ../sansation.ttf; sourceTree = "<group>"; };
-		DEDE1EF026612BE50052A57F /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../icon.png; sourceTree = "<group>"; };
+		DEDE1EF826612C310052A57F /* sansation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sansation.ttf; sourceTree = "<group>"; };
+		DEDE1EF926612C310052A57F /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		DEDE1EFA26612C310052A57F /* nice_music.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = nice_music.ogg; sourceTree = "<group>"; };
+		DEDE1EFB26612C310052A57F /* cute_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cute_image.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +47,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DE86146A26613ABD00EF916F /* Time */ = {
+			isa = PBXGroup;
+			children = (
+				DE86146C26613ACA00EF916F /* time.hpp */,
+				DE86146B26613ACA00EF916F /* time.cpp */,
+			);
+			path = Time;
+			sourceTree = "<group>";
+		};
+		DE86146E2661456000EF916F /* Game Manager */ = {
+			isa = PBXGroup;
+			children = (
+				DE86146F2661457F00EF916F /* game-manager.cpp */,
+				DE8614702661457F00EF916F /* game-manager.hpp */,
+			);
+			path = "Game Manager";
+			sourceTree = "<group>";
+		};
+		DE8614742661A33400EF916F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				DE8614762661A34100EF916F /* gravity-circle.hpp */,
+				DE8614752661A34100EF916F /* gravity-circle.cpp */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		DEDE1ED526612BE50052A57F = {
 			isa = PBXGroup;
 			children = (
@@ -57,30 +93,25 @@
 		DEDE1EE126612BE50052A57F /* Asteroids */ = {
 			isa = PBXGroup;
 			children = (
+				DE8614692661329500EF916F /* Asteroids.entitlements */,
 				DEDE1EE426612BE50052A57F /* ResourcePath.mm */,
 				DEDE1EE626612BE50052A57F /* ResourcePath.hpp */,
 				DEDE1EE726612BE50052A57F /* main.cpp */,
-				DEDE1EE926612BE50052A57F /* Resources */,
-				DEDE1EE226612BE50052A57F /* Supporting Files */,
+				DE8614742661A33400EF916F /* Components */,
+				DE86146E2661456000EF916F /* Game Manager */,
+				DE86146A26613ABD00EF916F /* Time */,
+				DEDE1EF726612C310052A57F /* Resources */,
 			);
 			path = Asteroids;
 			sourceTree = "<group>";
 		};
-		DEDE1EE226612BE50052A57F /* Supporting Files */ = {
+		DEDE1EF726612C310052A57F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				DEDE1EE326612BE50052A57F /* Asteroids-Info.plist */,
-			);
-			path = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		DEDE1EE926612BE50052A57F /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				DEDE1EEA26612BE50052A57F /* cute_image.jpg */,
-				DEDE1EEC26612BE50052A57F /* nice_music.ogg */,
-				DEDE1EEE26612BE50052A57F /* sansation.ttf */,
-				DEDE1EF026612BE50052A57F /* icon.png */,
+				DEDE1EF826612C310052A57F /* sansation.ttf */,
+				DEDE1EF926612C310052A57F /* icon.png */,
+				DEDE1EFA26612C310052A57F /* nice_music.ogg */,
+				DEDE1EFB26612C310052A57F /* cute_image.jpg */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -143,10 +174,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEDE1EF126612BE50052A57F /* icon.png in Resources */,
-				DEDE1EEF26612BE50052A57F /* sansation.ttf in Resources */,
-				DEDE1EED26612BE50052A57F /* nice_music.ogg in Resources */,
-				DEDE1EEB26612BE50052A57F /* cute_image.jpg in Resources */,
+				DEDE1EFF26612C310052A57F /* cute_image.jpg in Resources */,
+				DEDE1EFE26612C310052A57F /* nice_music.ogg in Resources */,
+				DEDE1EFD26612C310052A57F /* icon.png in Resources */,
+				DEDE1EFC26612C310052A57F /* sansation.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,7 +186,7 @@
 /* Begin PBXShellScriptBuildPhase section */
 		DEDE1EDD26612BE50052A57F /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 8;
 			files = (
 			);
 			inputFileListPaths = (
@@ -166,9 +197,9 @@
 			);
 			outputPaths = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
-			shellScript = "# This shell script simply copies required SFML dylibs/frameworks into the application bundle frameworks folder.\n# If you're using static libraries (which is not recommended) you should remove this script from your project.\n\n# SETTINGS\nSFML_DEPENDENCIES_INSTALL_PREFIX=\"/Users/SFML/Desktop/packaging/tmp/install/Library/Frameworks\"\nCMAKE_INSTALL_FRAMEWORK_PREFIX=\"/Users/SFML/Desktop/packaging/tmp/install/Library/Frameworks\"\nCMAKE_INSTALL_LIB_PREFIX=\"/Users/SFML/Desktop/packaging/tmp/install/Library/Frameworks/lib\"\nFRAMEWORKS_FULL_PATH=\"$BUILT_PRODUCTS_DIR/$FRAMEWORKS_FOLDER_PATH/\"\n\n# Are we building a project that uses frameworks or dylibs?\ncase \"$SFML_BINARY_TYPE\" in\n    DYLIBS)\n        frameworks=\"false\"\n        ;;\n    *)\n        frameworks=\"true\"\n        ;;\nesac\n\n# Echoes to stderr\nerror () # $* message to display\n{\n    echo $* 1>&2\n    exit 2\n}\n\nassert () # $1 is a boolean, $2...N is an error message\n{\n    if [ $# -lt 2 ]\n    then\n        error \"Internal error in assert: not enough args\"\n    fi\n\n    if [ $1 -ne 0 ]\n    then\n        shift\n        error \"$*\"\n    fi\n}\n\nforce_remove () # $@ is some paths\n{\n    test $# -ge 1\n    assert $? \"force_remove() requires at least one parameter\"\n    rm -fr $@\n    assert $? \"couldn't remove $@\"\n}\n\ncopy () # $1 is a source, $2 is a destination\n{\n    test $# -eq 2\n    assert $? \"copy() requires two parameters\"\n    ditto \"$1\" \"$2\"\n    assert $? \"couldn't copy $1 to $2\"\n}\n\nrequire () # $1 is a SFML module like 'system' or 'audio'\n{\n    dest=\"$BUILT_PRODUCTS_DIR/$FRAMEWORKS_FOLDER_PATH/\"\n\n    if [ -z \"$1\" ]\n    then\n        error \"require() requires one parameter!\"\n    else\n        # clean potentially old stuff\n        force_remove \"$dest/libsfml-$1\"*\n        force_remove \"$dest/sfml-$1.framework\"\n\n        # copy SFML libraries\n        if [ \"$frameworks\" = \"true\" ]\n        then\n            source=\"$CMAKE_INSTALL_FRAMEWORK_PREFIX/sfml-$1.framework\"\n            target=\"sfml-$1.framework\"\n        elif [ \"$SFML_LINK_DYLIBS_SUFFIX\" = \"-d\" ]\n        then\n            source=\"$CMAKE_INSTALL_LIB_PREFIX/libsfml-$1-d.dylib\"\n            target=\"`readlink $source`\"\n        else\n            source=\"$CMAKE_INSTALL_LIB_PREFIX/libsfml-$1.dylib\"\n            target=\"`readlink $source`\"\n        fi\n\n        copy \"$source\" \"$dest/$target\"\n\n        # copy extra dependencies\n        if [ \"$1\" = \"audio\" ]\n        then\n            # copy \"FLAC\" \"ogg\" \"vorbis\" \"vorbisenc\" \"vorbisfile\" \"OpenAL\" frameworks too\n            for f in \"FLAC\" \"ogg\" \"vorbis\" \"vorbisenc\" \"vorbisfile\" \"OpenAL\"\n            do\n                copy \"$SFML_DEPENDENCIES_INSTALL_PREFIX/$f.framework\" \"$dest/$f.framework\"\n            done\n        elif [ \"$1\" = \"graphics\" ]\n        then\n            copy \"$SFML_DEPENDENCIES_INSTALL_PREFIX/freetype.framework\" \"$dest/freetype.framework\"\n        fi\n    fi\n}\n\nif [ -n \"$SFML_SYSTEM\" ]\nthen\n    require \"system\"\nfi\n\nif [ -n \"$SFML_AUDIO\" ]\nthen\n    require \"audio\"\nfi\n\nif [ -n \"$SFML_NETWORK\" ]\nthen\n    require \"network\"\nfi\n\nif [ -n \"$SFML_WINDOW\" ]\nthen\n    require \"window\"\nfi\n\nif [ -n \"$SFML_GRAPHICS\" ]\nthen\n    require \"graphics\"\nfi\n\n                ";
+			shellScript = "# This shell script simply copies required SFML dylibs/frameworks into the application bundle frameworks folder.\n# If you're using static libraries (which is not recommended) you should remove this script from your project.\n\n# SETTINGS\nSFML_DEPENDENCIES_INSTALL_PREFIX=\"/Users/SFML/Desktop/packaging/tmp/install/Library/Frameworks\"\nCMAKE_INSTALL_FRAMEWORK_PREFIX=\"/Users/SFML/Desktop/packaging/tmp/install/Library/Frameworks\"\nCMAKE_INSTALL_LIB_PREFIX=\"/Users/SFML/Desktop/packaging/tmp/install/Library/Frameworks/lib\"\nFRAMEWORKS_FULL_PATH=\"$BUILT_PRODUCTS_DIR/$FRAMEWORKS_FOLDER_PATH/\"\n\n# Are we building a project that uses frameworks or dylibs?\ncase \"$SFML_BINARY_TYPE\" in\n    DYLIBS)\n        frameworks=\"false\"\n        ;;\n    *)\n        frameworks=\"true\"\n        ;;\nesac\n\n# Echoes to stderr\nerror () # $* message to display\n{\n    echo $* 1>&2\n    exit 2\n}\n\nassert () # $1 is a boolean, $2...N is an error message\n{\n    if [ $# -lt 2 ]\n    then\n        error \"Internal error in assert: not enough args\"\n    fi\n\n    if [ $1 -ne 0 ]\n    then\n        shift\n        error \"$*\"\n    fi\n}\n\nforce_remove () # $@ is some paths\n{\n    test $# -ge 1\n    assert $? \"force_remove() requires at least one parameter\"\n    rm -fr $@\n    assert $? \"couldn't remove $@\"\n}\n\ncopy () # $1 is a source, $2 is a destination\n{\n    test $# -eq 2\n    assert $? \"copy() requires two parameters\"\n    ditto \"$1\" \"$2\"\n    assert $? \"couldn't copy $1 to $2\"\n}\n\nrequire () # $1 is a SFML module like 'system' or 'audio'\n{\n    dest=\"$BUILT_PRODUCTS_DIR/$FRAMEWORKS_FOLDER_PATH/\"\n\n    if [ -z \"$1\" ]\n    then\n        error \"require() requires one parameter!\"\n    else\n        # clean potentially old stuff\n        force_remove \"$dest/libsfml-$1\"*\n        force_remove \"$dest/sfml-$1.framework\"\n\n        # copy SFML libraries\n        if [ \"$frameworks\" = \"true\" ]\n        then\n            source=\"$CMAKE_INSTALL_FRAMEWORK_PREFIX/sfml-$1.framework\"\n            target=\"sfml-$1.framework\"\n        elif [ \"$SFML_LINK_DYLIBS_SUFFIX\" = \"-d\" ]\n        then\n            source=\"$CMAKE_INSTALL_LIB_PREFIX/libsfml-$1-d.dylib\"\n            target=\"`readlink $source`\"\n        else\n            source=\"$CMAKE_INSTALL_LIB_PREFIX/libsfml-$1.dylib\"\n            target=\"`readlink $source`\"\n        fi\n\n        copy \"$source\" \"$dest/$target\"\n\n        # copy extra dependencies\n        if [ \"$1\" = \"audio\" ]\n        then\n            # copy \"FLAC\" \"ogg\" \"vorbis\" \"vorbisenc\" \"vorbisfile\" \"OpenAL\" frameworks too\n            for f in \"FLAC\" \"ogg\" \"vorbis\" \"vorbisenc\" \"vorbisfile\" \"OpenAL\"\n            do\n                copy \"$SFML_DEPENDENCIES_INSTALL_PREFIX/$f.framework\" \"$dest/$f.framework\"\n            done\n        elif [ \"$1\" = \"graphics\" ]\n        then\n            copy \"$SFML_DEPENDENCIES_INSTALL_PREFIX/freetype.framework\" \"$dest/freetype.framework\"\n        fi\n    fi\n}\n\nif [ -n \"$SFML_SYSTEM\" ]\nthen\n    require \"system\"\nfi\n\nif [ -n \"$SFML_AUDIO\" ]\nthen\n    require \"audio\"\nfi\n\nif [ -n \"$SFML_NETWORK\" ]\nthen\n    require \"network\"\nfi\n\nif [ -n \"$SFML_WINDOW\" ]\nthen\n    require \"window\"\nfi\n\nif [ -n \"$SFML_GRAPHICS\" ]\nthen\n    require \"graphics\"\nfi\n\n                \n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -177,8 +208,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE8614772661A34100EF916F /* gravity-circle.cpp in Sources */,
 				DEDE1EE826612BE50052A57F /* main.cpp in Sources */,
 				DEDE1EE526612BE50052A57F /* ResourcePath.mm in Sources */,
+				DE86146D26613ACA00EF916F /* time.cpp in Sources */,
+				DE8614712661457F00EF916F /* game-manager.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,24 +310,40 @@
 		DEDE1EF526612BE50052A57F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_ENTITLEMENTS = Asteroids/Asteroids.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P4L2M42FLR;
 				ENABLE_HARDENED_RUNTIME = YES;
+				EXCLUDED_ARCHS = arm64;
 				INFOPLIST_FILE = "Asteroids/Asteroids-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.jakcharvat.Asteroids;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
 		DEDE1EF626612BE50052A57F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_ENTITLEMENTS = Asteroids/Asteroids.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P4L2M42FLR;
 				ENABLE_HARDENED_RUNTIME = YES;
+				EXCLUDED_ARCHS = arm64;
 				INFOPLIST_FILE = "Asteroids/Asteroids-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.jakcharvat.Asteroids;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
